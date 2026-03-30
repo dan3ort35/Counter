@@ -16,29 +16,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1F-bc-ys9">
-                                <rect key="frame" x="71" y="749" width="32" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXE-uI-ItS">
+                                <rect key="frame" x="90" y="749" width="32" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="-"/>
                                 <connections>
-                                    <action selector="buttonDownActon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gb0-rH-zlw"/>
+                                    <action selector="buttonDownAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PWG-mX-Ccw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DQf-4W-jD0">
-                                <rect key="frame" x="289" y="749" width="35" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rzM-fQ-PJc">
+                                <rect key="frame" x="268" y="749" width="35" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="+"/>
                                 <connections>
-                                    <action selector="buttonUpActon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LEg-er-i53"/>
+                                    <action selector="buttonUpAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iqL-lY-fMl"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbv-h5-VkE">
-                                <rect key="frame" x="175" y="118" width="11" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S2S-yJ-5c5">
+                                <rect key="frame" x="163" y="118" width="58" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -49,14 +49,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="buttonDown" destination="d1F-bc-ys9" id="ez3-P7-D8n"/>
-                        <outlet property="buttonUp" destination="DQf-4W-jD0" id="aIG-NB-r0E"/>
-                        <outlet property="labelStep" destination="sbv-h5-VkE" id="7ou-aA-pe4"/>
+                        <outlet property="buttonDown" destination="gXE-uI-ItS" id="Y1i-8v-N6S"/>
+                        <outlet property="buttonUp" destination="rzM-fQ-PJc" id="BYe-W3-88C"/>
+                        <outlet property="lableStep" destination="S2S-yJ-5c5" id="pfZ-Z7-VcW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="463" y="34"/>
+            <point key="canvasLocation" x="-561.06870229007632" y="-230.28169014084509"/>
         </scene>
     </scenes>
     <resources>

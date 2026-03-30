@@ -1,29 +1,26 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    @IBOutlet weak var labelStep: UILabel!
+    @IBOutlet weak var lableStep: UILabel!
     @IBOutlet weak var buttonUp: UIButton!
     @IBOutlet weak var buttonDown: UIButton!
     
-    private var counter: Int = 0
+    private var currentValue: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        updateLabel()
-    }
-    
-    @IBAction func buttonUpAction(_ sender: Any) {
-        counter += 1
-        updateLabel()
+        // Установить начальное значение для лейбла
+        lableStep.text = "\(currentValue)"
     }
     
     @IBAction func buttonDownAction(_ sender: Any) {
-        counter -= 1
-        updateLabel()
+        currentValue -= 1
+        lableStep.text = "\(currentValue)"
+}
+    
+    @IBAction func buttonUpAction(_ sender: Any) {
+        currentValue += 1
+        lableStep.text = "\(currentValue)"
     }
     
-    private func updateLabel() {
-        labelStep.text = "\(counter)"
-    }
 }
